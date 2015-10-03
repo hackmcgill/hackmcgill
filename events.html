@@ -4,7 +4,7 @@ Design by TEMPLATED
 http://templated.co
 Released for free under the Creative Commons Attribution License
 
-Name       : Embellished 
+Name       : Embellished
 Description: A two-column, fixed-width design with dark color scheme.
 Version    : 1.0
 Released   : 20140207
@@ -16,39 +16,178 @@ Released   : 20140207
 <title></title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 </head>
 <body>
+
+</body>
+
 <div id="wrapper1">
 	<div id="header-wrapper">
 		<div id="header" class="container">
+            <!--
             <div id="logo"> <img src="/images/bird.svg">
-				<h1><a href="#">HackMcGill</a></h1>
-                <!-- <span>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a></span> </div> -->
-			<div id="menu">
+				<h1><a href="index.html">hackmcgill</a></h1>
+                <h3><a href="https://mchacks.io/">McHacks</a></h3>
+            </div>
+            -->
+			<nav id="menu">
 				<ul>
-					<li><a href="projects.html" accesskey="1" title="">Projects</a></li>
-					<li class="current_page_item"><a href="events.html" accesskey="2" title="">Events</a></li>
-					<li><a href="about.html" accesskey="3" title="">About</a></li>
-					<li><a href="jobs.html" accesskey="4" title="">HackMcGill Jobs</a></li>
-					<li><a href="contact.html" accesskey="5" title="">Contact Us</a></li>
+                    <li>
+                        <a href="index.html" accesskey="1" title="">Home</a>
+                    </li>
+					<li>
+                        <a href="projects.html" accesskey="1" title="">Projects</a>
+                    </li>
+					<li class="current_page_item">
+                        <a href="events.html" accesskey="2" title="">Events</a>
+                    </li>
+					<li>
+                        <a href="about.html" accesskey="3" title="">Resources</a>
+                    </li>
+					<li>
+                        <a href="jobs.html" accesskey="4" title="">HackMcGill Jobs</a>
+                    </li>
+					<li>
+                        <a href="about.html" accesskey="5" title="">About</a>
+                    </li>
+					<li>
+                        <a href="contact.html" accesskey="6" title="">Contact Us</a>
+                    </li>
 				</ul>
-			</div>
+			</nav>
 		</div>
 	</div>
-	<div id="wrapper2">
-		<div id="welcome" class="container">
-			<div class="title">
-				<h2>Welcome to our website</h2>
-			</div>
-			<p>This is <strong>Embellished</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p>
-		</div>
-	</div>
+
+    <div id="main-container" class="pure-g">
+        <div id="left-panel" class="pure-u-1-4">
+            <div>
+                <h1>
+                    <div class="pre-title">
+                        Upcoming events
+                    </div>
+                </h1>
+                <ul class="flat events">
+                    <li class="pure-g">
+                        <div class="pure-u-1-5">
+                            <h2><i class="fa fa-2x fa-paper-plane"></i></h2>
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2 class="event-item">
+                                <div>
+                                    Learn to Code
+                                </div>
+                                <div class="pre-title">
+                                    2015-10-04 6:00 pm
+                                </div>
+                            </h2>
+                        </div>
+                    </li>
+                    <li class="pure-g">
+                        <div class="pure-u-1-5">
+                            <h2><i class="fa fa-2x fa-cog"></i></h2>
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2 class="event-item">
+                                <div>
+                                    HACK 101
+                                </div>
+                                <div class="pre-title">
+                                    2015-10-04 6:00 pm
+                                </div>
+                            </h2>
+                        </div>
+                    </li>
+                    <li class="pure-g">
+                        <div class="pure-u-1-5">
+                            <h2><i class="fa fa-2x fa-cloud"></i></h2>
+                        </div>
+                        <div class="pure-u-4-5">
+                            <h2 class="event-item">
+                                <div>
+                                    HackNight
+                                </div>
+                                <div class="pre-title">
+                                    2015-10-04 6:00 pm
+                                </div>
+                            </h2>
+                        </div>
+                    </li>
+                </ul>
+                <p></p>
+            </div>
+        </div>
+
+        <div id="right-panel" class="pure-u-3-4">
+            <h1>
+                <div class="pre-title">
+                    Project of the week
+                </div>
+                HackMcGill Website
+            </h1>
+            <div class="article-contents pure-g">
+                <div class="pure-u-1-2">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque maximus justo id erat porta, non semper quam
+                    faucibus.  Quisque auctor condimentum risus, nec finibus
+                    orci ultrices sit amet. Donec enim ex, sollicitudin nec
+                    vestibulum nec, vestibulum eget lectus. Donec lorem enim,
+                    cursus vitae ante vitae, pharetra lobortis arcu.
+                    Suspendisse elementum lectus in erat eleifend, quis
+                    bibendum velit aliquet. Vivamus semper arcu eget aliquam
+                    tincidunt. Nulla viverra, leo non luctus ultrices, leo
+                    risus auctor justo, ac fermentum eros velit vitae dui.
+                    Nulla molestie lorem vel efficitur dictum.  Phasellus vel
+                    elit non risus ullamcorper fermentum sit amet a nisl.
+                    Nullam rhoncus sit amet lorem at egestas.
+                    </p>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque maximus justo id erat porta, non semper quam
+                    faucibus.  Quisque auctor condimentum risus, nec finibus
+                    orci ultrices sit amet. Donec enim ex, sollicitudin nec
+                    vestibulum nec, vestibulum eget lectus. Donec lorem enim,
+                    cursus vitae ante vitae, pharetra lobortis arcu.
+                    Suspendisse elementum lectus in erat eleifend, quis
+                    bibendum velit aliquet. Vivamus semper arcu eget aliquam
+                    tincidunt. Nulla viverra, leo non luctus ultrices, leo
+                    risus auctor justo, ac fermentum eros velit vitae dui.
+                    Nulla molestie lorem vel efficitur dictum.  Phasellus vel
+                    elit non risus ullamcorper fermentum sit amet a nisl.
+                    Nullam rhoncus sit amet lorem at egestas.
+                    </p>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque maximus justo id erat porta, non semper quam
+                    faucibus.  Quisque auctor condimentum risus, nec finibus
+                    orci ultrices sit amet. Donec enim ex, sollicitudin nec
+                    vestibulum nec, vestibulum eget lectus. Donec lorem enim,
+                    cursus vitae ante vitae, pharetra lobortis arcu.
+                    Suspendisse elementum lectus in erat eleifend, quis
+                    bibendum velit aliquet. Vivamus semper arcu eget aliquam
+                    tincidunt. Nulla viverra, leo non luctus ultrices, leo
+                    risus auctor justo, ac fermentum eros velit vitae dui.
+                    Nulla molestie lorem vel efficitur dictum.  Phasellus vel
+                    elit non risus ullamcorper fermentum sit amet a nisl.
+                    Nullam rhoncus sit amet lorem at egestas.
+                    </p>
+                </div>
+                <div class="pure-u-1-2">
+                    <img src="images/screenie.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
 	<div id="wrapper3">
 		<div id="portfolio" class="container">
 			<div class="title">

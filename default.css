@@ -321,7 +321,6 @@
 	#header-wrapper
 	{
 		overflow: hidden;
-		padding: 5em 0em;
 	}
 
 	#header
@@ -417,8 +416,8 @@
 	
 	#menu .current_page_item a
 	{
-		border: 1px solid #3C3C3C;
-		border-radius: 4px;
+        padding: 0.5em;
+        border-bottom: 1px solid black;
 	}
 	
 
