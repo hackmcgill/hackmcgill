@@ -24,8 +24,12 @@
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
 
     .menu-icon {
         display: none;
