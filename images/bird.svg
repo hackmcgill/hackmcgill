@@ -1,66 +1,289 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="477px" height="315px" viewBox="0 0 477 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <title>bird</title>
-    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="logo_front" sketch:type="MSLayerGroup" transform="translate(5.000000, 2.000000)" stroke="rgb(205, 29, 20)" stroke-width="3">
-            <g id="bird" transform="translate(61.000000, 14.000000)" sketch:type="MSShapeGroup">
-                <path d="M0,40 L52,0 L104,6 L124,30 L130,74 L174,94 L306,52 L278,94 L316,94 L268,152 L291,184 L392,178 L348,212 L410,282 L316,236 L244,226 L190,250 L218,274 L192,298 L146,276 L94,292 L100,268 L74,252 L90,232 L42,200 L18,142 L38,86 L14,68 L20,52 L0,40 Z" id="outline" stroke-linejoin="round"></path>
-                <g id="triangles" stroke-linejoin="bevel">
-                    <path d="M316,94 L174,94 L178,160 L316,94 Z" id="Path-27"></path>
-                    <path d="M146,134 L106,206 L178,160 L146,134 Z" id="Path-28"></path>
-                    <path d="M178,202 L190,250 L244,226 L178,202 Z" id="Path-29"></path>
-                    <path d="M216,190 L244,226 L178,202 L216,190 Z" id="Path-30"></path>
-                    <path d="M178,202 L158,232 L106,206 L178,202 Z" id="Path-31"></path>
-                    <path d="M158,232 L192,298 L190,250 L158,232 Z" id="Path-32"></path>
-                    <path d="M146,276 L158,232 L108,236 L146,276 Z" id="Path-33"></path>
-                    <path d="M174,94 L306,52 L244,94 L174,94 Z" id="Path-33"></path>
-                    <path d="M306,52 L278,94 L244,94 L306,52 Z" id="Path-34"></path>
-                    <path d="M316,94 L268,152 L178,160 L316,94 Z" id="Path-35"></path>
-                    <path d="M190,250 L218,274 L192,298 L190,250 Z" id="Path-36"></path>
-                    <path d="M158,232 L146,276 L192,298 L158,232 Z" id="Path-37"></path>
-                    <path d="M94,292 L146,276 L108,236 L94,292 Z" id="Path-38"></path>
-                    <path d="M90,232 L100,268 L74,252 L90,232 Z" id="Path-39"></path>
-                    <path d="M90,232 L108,236 L100,268 L90,232 Z" id="Path-40"></path>
-                    <path d="M410,282 L348,212 L316,235.947368 L410,282 Z" id="Path-41"></path>
-                    <path d="M291,184 L392,178 L348,212 L291,184 Z" id="Path-42"></path>
-                    <path d="M244,226 L314,216 L316,236 L244,226 Z" id="Path-43"></path>
-                    <path d="M244,226 L268,152 L314,216 L244,226 Z" id="Path-44"></path>
-                    <path d="M216,190 L244,226 L268,152 L216,190 Z" id="Path-45"></path>
-                    <path d="M42,200 L66,156 L18,142 L42,200 Z" id="Path-46"></path>
-                    <path d="M66,156 L106,206 L42,200 L66,156 Z" id="Path-47"></path>
-                    <path d="M66,156 L146,134 L106,206 L66,156 Z" id="Path-48"></path>
-                    <path d="M178,160 L216,190 L268,152 L178,160 Z" id="Path-49"></path>
-                    <path d="M291,184 L314,216 L348,212 L291,184 Z" id="Path-50"></path>
-                    <path d="M178,202 L158,232 L190,250 L178,202 Z" id="Path-51"></path>
-                    <path d="M38,86 L66,156 L18,142 L38,86 Z" id="Path-52"></path>
-                    <path d="M20,52 L0,40 L52,0 L20,52 Z" id="Path-53"></path>
-                    <path d="M14,68 L38,86 L48,58 L14,68 Z" id="Path-55"></path>
-                    <path d="M80,94 L66,156 L38,86 L80,94 Z" id="Path-56"></path>
-                    <path d="M78,24 L52,0 L48,58 L78,24 Z" id="Path-57"></path>
-                    <path d="M52,0 L78,24 L104,6 L52,0 Z" id="Path-58"></path>
-                    <path d="M78,24 L124,30 L104,6 L78,24 Z" id="Path-59"></path>
-                    <path d="M78,24 L94,56 L124,30 L78,24 Z" id="Path-60"></path>
-                    <path d="M124,30 L94,55.6666667 L130,74 L124,30 Z" id="Path-61"></path>
-                    <path d="M94,56 L38,86 L80,94 L94,56 Z" id="Path-62"></path>
-                    <path d="M130,74 L146,134 L174,94 L130,74 Z" id="Path-63"></path>
-                    <path d="M146,134 L178,160 L174,94 L146,134 Z" id="Path-64"></path>
-                    <path d="M130,74 L66,156 L146,134 L130,74 Z" id="Path-65"></path>
-                    <path d="M94,56 L80,94 L130,74 L94,56 Z" id="Path-66"></path>
-                    <path d="M178,160 L106,206 L178,202 L178,160 Z" id="Path-44"></path>
-                    <path d="M178,160 L178,202 L216,190 L178,160 Z" id="Path-45"></path>
-                    <path d="M20,52 L48,58 L52,0 L20,52 Z" id="Path-108"></path>
-                    <path d="M14,68 L48,58 L20,52 L14,68 Z" id="Path-54"></path>
-                    <path d="M80,94 L66,156 L130,74 L80,94 Z" id="Path-46"></path>
-                    <path d="M78,24 L48,58 L94,56.1578947 L78,24 Z" id="Path-47"></path>
-                    <path d="M314,216 L316,236 L348,212 L314,216 Z" id="Path-48"></path>
-                    <path d="M38,86 L48.1666667,57.8125 L94,56 L38,86 Z" id="Path-49"></path>
-                    <path d="M42,200 L106,206 L90,232 L42,200 Z" id="Path-50"></path>
-                    <path d="M106,206 L90,232 L108,236 L106,206 Z" id="Path-51"></path>
-                    <path d="M106,206 L108,236 L158,232 L106,206 Z" id="Path-52"></path>
-                </g>
-            </g>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="346.33008"
+   height="252.4162"
+   viewBox="0 0 412.99862 252.4162"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="bird.svg">
+  <metadata
+     id="metadata78">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="776"
+     inkscape:window-height="480"
+     id="namedview76"
+     showgrid="false"
+     inkscape:zoom="0.74920635"
+     inkscape:cx="263.36519"
+     inkscape:cy="127.40234"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <title
+     id="title4">bird</title>
+  <description
+     id="description6">Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+  <defs
+     id="defs8" />
+  <g
+     id="Page-1"
+     sketch:type="MSPage"
+     transform="translate(-62.913541,-37.148038)"
+     style="fill:none;stroke:none">
+    <g
+       id="logo_front"
+       sketch:type="MSLayerGroup"
+       transform="translate(5,2)"
+       style="stroke:#cd1d14;stroke-width:3">
+      <g
+         id="bird"
+         transform="translate(61,14)"
+         sketch:type="MSShapeGroup">
+        <path
+           d="m 0,40 52,-40 52,6 20,24 6,44 44,20 132,-42 -28,42 38,0 -48,58 23,32 101,-6 -44,34 62,70 -94,-46 -72,-10 -54,24 28,24 -26,24 -46,-22 -52,16 6,-24 L 74,252 90,232 42,200 18,142 38,86 14,68 20,52 0,40 z"
+           id="outline"
+           inkscape:connector-curvature="0"
+           style="stroke-linejoin:round" />
+        <g
+           id="triangles"
+           style="stroke-linejoin:bevel">
+          <path
+             d="m 316,94 -142,0 4,66 138,-66 z"
+             id="Path-27"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 146,134 -40,72 72,-46 -32,-26 z"
+             id="Path-28"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 178,202 12,48 54,-24 -66,-24 z"
+             id="Path-29"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 216,190 28,36 -66,-24 38,-12 z"
+             id="Path-30"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 178,202 -20,30 -52,-26 72,-4 z"
+             id="Path-31"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 158,232 34,66 -2,-48 -32,-18 z"
+             id="Path-32"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 146,276 12,-44 -50,4 38,40 z"
+             id="Path-33"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 174,94 306,52 244,94 174,94 z"
+             id="path22"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 306,52 -28,42 -34,0 62,-42 z"
+             id="Path-34"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 316,94 -48,58 -90,8 138,-66 z"
+             id="Path-35"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 190,250 28,24 -26,24 -2,-48 z"
+             id="Path-36"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 158,232 -12,44 46,22 -34,-66 z"
+             id="Path-37"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 94,292 52,-16 -38,-40 -14,56 z"
+             id="Path-38"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 90,232 10,36 -26,-16 16,-20 z"
+             id="Path-39"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 90,232 18,4 -8,32 -10,-36 z"
+             id="Path-40"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 410,282 348,212 316,235.94737 410,282 z"
+             id="Path-41"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 291,184 101,-6 -44,34 -57,-28 z"
+             id="Path-42"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 244,226 70,-10 2,20 -72,-10 z"
+             id="Path-43"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 244,226 24,-74 46,64 -70,10 z"
+             id="Path-44"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 216,190 28,36 24,-74 -52,38 z"
+             id="Path-45"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 42,200 66,156 18,142 42,200 z"
+             id="Path-46"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 66,156 40,50 -64,-6 24,-44 z"
+             id="Path-47"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 66,156 80,-22 -40,72 -40,-50 z"
+             id="Path-48"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 178,160 38,30 52,-38 -90,8 z"
+             id="Path-49"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 291,184 23,32 34,-4 -57,-28 z"
+             id="Path-50"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 178,202 -20,30 32,18 -12,-48 z"
+             id="Path-51"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 38,86 66,156 18,142 38,86 z"
+             id="Path-52"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 20,52 0,40 52,0 20,52 z"
+             id="Path-53"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 14,68 38,86 48,58 14,68 z"
+             id="Path-55"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 80,94 66,156 38,86 80,94 z"
+             id="Path-56"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 78,24 52,0 48,58 78,24 z"
+             id="Path-57"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 52,0 78,24 104,6 52,0 z"
+             id="Path-58"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 78,24 124,30 104,6 78,24 z"
+             id="Path-59"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 78,24 94,56 124,30 78,24 z"
+             id="Path-60"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 124,30 94,55.666667 130,74 124,30 z"
+             id="Path-61"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 94,56 38,86 80,94 94,56 z"
+             id="Path-62"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 130,74 16,60 28,-40 -44,-20 z"
+             id="Path-63"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 146,134 32,26 -4,-66 -28,40 z"
+             id="Path-64"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 130,74 66,156 146,134 130,74 z"
+             id="Path-65"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 94,56 80,94 130,74 94,56 z"
+             id="Path-66"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 178,160 -72,46 72,-4 0,-42 z"
+             id="path56"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 178,160 0,42 38,-12 -38,-30 z"
+             id="path58"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 20,52 48,58 52,0 20,52 z"
+             id="Path-108"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 14,68 48,58 20,52 14,68 z"
+             id="Path-54"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 80,94 66,156 130,74 80,94 z"
+             id="path62"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 78,24 48,58 94,56.157895 78,24 z"
+             id="path64"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 314,216 2,20 32,-24 -34,4 z"
+             id="path66"
+             inkscape:connector-curvature="0" />
+          <path
+             d="M 38,86 48.166667,57.8125 94,56 38,86 z"
+             id="path68"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 42,200 64,6 -16,26 -48,-32 z"
+             id="path70"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 106,206 -16,26 18,4 -2,-30 z"
+             id="path72"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 106,206 2,30 50,-4 -52,-26 z"
+             id="path74"
+             inkscape:connector-curvature="0" />
         </g>
+      </g>
     </g>
+  </g>
 </svg>
