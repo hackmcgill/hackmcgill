@@ -2,13 +2,11 @@
     box-sizing: border-box;
 }
 
-	html, body
-	{
+	html, body {
 		height: 100%;
 	}
-	
-	body
-	{
+
+	body {
 		margin: 0px;
 		padding: 0px;
 		background: #1B1B1B url(images/overlay.png) repeat;
@@ -17,80 +15,68 @@
 		font-weight: 400;
 		color: #000000;
 	}
-	
-	
-	h1, h2, h3
-	{
+
+
+	h1, h2, h3 {
 		margin: 0;
 		padding: 0;
 	}
-	
-	p, ol, ul
-	{
+
+	p, ol, ul {
 		margin-top: 0;
 	}
-	
-	ol, ul
-	{
+
+	ol, ul {
 		padding: 0;
 		list-style: none;
 	}
-	
-	p
-	{
+
+	p {
 		line-height: 180%;
 	}
-	
-	strong
-	{
+
+	strong {
 	}
-	
-	a
-	{
+
+	a {
 		color: #0000FF;
 	}
-	
-	a:hover
-	{
+
+	a:hover {
 		text-decoration: none;
 	}
-	
 
-	.container
-	{
+
+	.container {
 		margin: 0px auto;
 		width: 1200px;
 	}
-	
+
 
 /*********************************************************************************/
 /* Form Style                                                                    */
 /*********************************************************************************/
 
-		form
-		{
+		form {
 		}
-		
-			form label
-			{
+
+			form label {
 				display: block;
 				text-align: left;
 				margin-bottom: 0.5em;
 			}
-			
-			form .submit
-			{
+
+			form .submit {
 				margin-top: 2em;
 				background: #67128F;
 				border-radius: 8px;
 				line-height: 1.5em;
 				font-size: 1.3em;
 			}
-		
+
 			form input.text,
 			form select,
-			form textarea
-			{
+			form textarea {
 				position: relative;
 				-webkit-appearance: none;
 				display: block;
@@ -115,50 +101,41 @@
 
 				form input.text:hover,
 				form select:hover,
-				form textarea:hover
-				{
+				form textarea:hover {
 				}
 
 				form input.text:focus,
 				form select:focus,
-				form textarea:focus
-				{
+				form textarea:focus {
 					box-shadow: 0 0 2px 1px #E0E0E0;
 					background: #fff;
 				}
-				
-				form textarea
-				{
+
+				form textarea {
 					min-height: 12em;
 				}
 
-				form .formerize-placeholder
-				{
+				form .formerize-placeholder {
 					color: #555 !important;
 				}
 
-				form ::-webkit-input-placeholder
-				{
+				form ::-webkit-input-placeholder {
 					color: #555 !important;
 				}
 
-				form :-moz-placeholder
-				{
+				form :-moz-placeholder {
 					color: #555 !important;
 				}
 
-				form ::-moz-placeholder
-				{
+				form ::-moz-placeholder {
 					color: #555 !important;
 				}
 
-				form :-ms-input-placeholder
-				{
+				form :-ms-input-placeholder {
 					color: #555 !important;
 				}
 
-				form ::-moz-focus-inner
-				{
+				form ::-moz-focus-inner {
 					border: 0;
 				}
 
@@ -167,39 +144,33 @@
 /* Image Style                                                                   */
 /*********************************************************************************/
 
-	.image
-	{
+	.image {
 		display: inline-block;
 		border: 1px solid rgba(0,0,0,.1);
 	}
-	
-	.image img
-	{
+
+	.image img {
 		display: block;
 		width: 100%;
 	}
-	
-	.image-full
-	{
+
+	.image-full {
 		display: block;
 		width: 100%;
 		margin: 0 0 3em 0;
 	}
-	
-	.image-left
-	{
+
+	.image-left {
 		float: left;
 		margin: 0 2em 2em 0;
 	}
-	
-	.image-centered
-	{
+
+	.image-centered {
 		display: block;
 		margin: 0 0 2em 0;
 	}
-	
-	.image-centered img
-	{
+
+	.image-centered img {
 		margin: 0 auto;
 		width: auto;
 	}
@@ -208,8 +179,7 @@
 /* List Styles                                                                   */
 /*********************************************************************************/
 
-	ul.style1
-	{
+	ul.style1 {
 	}
 
 
@@ -217,34 +187,29 @@
 /* Social Icon Styles                                                            */
 /*********************************************************************************/
 
-	ul.contact
-	{
+	ul.contact {
 		margin: 0;
 		padding: 1em 0em 0em 0em;
 		list-style: none;
 	}
-	
-	ul.contact li
-	{
+
+	ul.contact li {
 		display: inline-block;
 		padding: 0em 0.20em;
 		font-size: 1.2em;
 	}
-	
-	ul.contact li span
-	{
+
+	ul.contact li span {
 		display: none;
 		margin: 0;
 		padding: 0;
 	}
-	
-	ul.contact li a
-	{
+
+	ul.contact li a {
 		color: rgba(255,255,255,1);
 	}
-	
-	ul.contact li a:before
-	{
+
+	ul.contact li a:before {
 		display: inline-block;
 		width: 60px;
 		height: 60px;
@@ -253,14 +218,13 @@
 		border-radius: 30px;
 		text-align: center;
 	}
-	
+
 
 /*********************************************************************************/
 /* Button Style                                                                  */
 /*********************************************************************************/
 
-	.button
-	{
+	.button {
 		display: inline-block;
 		margin-top: 2em;
 		padding: 0.6em 1em;
@@ -272,9 +236,8 @@
 		font-size: 1.2em;
 		color: #FFF;
 	}
-	
-	.button:before
-	{
+
+	.button:before {
 		display: inline-block;
 		background: #8DCB89;
 		margin-right: 1em;
@@ -285,28 +248,24 @@
 		text-align: center;
 		color: #272925;
 	}
-	
-	.button-small
-	{
+
+	.button-small {
 	}
-		
+
 /*********************************************************************************/
 /* Heading Titles                                                                */
 /*********************************************************************************/
 
-	.title
-	{
+	.title {
 		margin-bottom: 3em;
 	}
-	
-	.title h2
-	{
+
+	.title h2 {
 		font-size: 2.8em;
 		color: #261300;
 	}
-	
-	.title .byline
-	{
+
+	.title .byline {
 		letter-spacing: 0.15em;
 		text-transform: uppercase;
 		font-weight: 400;
@@ -318,13 +277,11 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#header-wrapper
-	{
+	#header-wrapper {
 		overflow: hidden;
 	}
 
-	#header
-	{
+	#header {
 	}
 
 /*********************************************************************************/
@@ -333,7 +290,7 @@
 
 	#logo
 	{
-		padding: 5em 0em;
+ 		padding: 5em 0em;
 		text-align: center;
 	}
 	
@@ -352,17 +309,15 @@
 	{
 		text-decoration: none;
 	}
-	
-	#logo span
-	{
+
+	#logo span {
 		letter-spacing: 0.10em;
 		text-transform: uppercase;
 		font-size: 0.90em;
 		color: #3C3C3C;
 	}
 
-	#logo span a
-	{
+	#logo span a {
 		color: #3C3C3C;
 	}
 	
@@ -382,22 +337,18 @@
 /* Menu                                                                          */
 /*********************************************************************************/
 
-	#menu
-	{
+	#menu {
 	}
-	
-	#menu ul
-	{
+
+	#menu ul {
 		text-align: center;
 	}
-	
-	#menu li
-	{
+
+	#menu li {
 		display: inline-block;
 	}
-	
-	#menu li a, #menu li span
-	{
+
+	#menu li a, #menu li span {
 		display: inline-block;
 		margin-left: 0.50em;
 		padding: 1em 1.5em;
@@ -409,49 +360,42 @@
 		outline: 0;
 		color: #3C3C3C;
 	}
-	
-	#menu li:hover a, #menu li.active a, #menu li.active span
-	{
+
+	#menu li:hover a, #menu li.active a, #menu li.active span {
 	}
-	
-	#menu .current_page_item a
-	{
+
+	#menu .current_page_item a {
         padding: 0.5em;
         border-bottom: 1px solid black;
 	}
-	
+
 
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
 
-	#banner
-	{
+	#banner {
 	}
 
 /*********************************************************************************/
 /* Wrapper                                                                       */
 /*********************************************************************************/
 
-	#wrapper1
-	{
+	#wrapper1 {
 		background: #FFF;
 	}
 
-	#wrapper2
-	{
+	#wrapper2 {
 		background: hsla(3,40%,45%,1.0);
 	}
 
-	#wrapper3
-	{
+	#wrapper3 {
 		overflow: hidden;
 		padding: 0em 0em 8em 0em;
 		background: #FFF;
 	}
-	
-	#wrapper4
-	{
+
+	#wrapper4 {
 		overflow: hidden;
 		padding: 8em 0em 4em 0em;
 	}
@@ -460,28 +404,24 @@
 /* Welcome                                                                       */
 /*********************************************************************************/
 
-	#welcome
-	{
+	#welcome {
 		overflow: hidden;
 		width: 1000px;
 		padding: 8em 100px 8em 100px;
 		text-align: center;
 		color: rgba(255,255,255,0.4);
 	}
-	
-	#welcome .content
-	{
+
+	#welcome .content {
 		padding: 0em 8em;
 	}
-	
-	#welcome .title h2
-	{
+
+	#welcome .title h2 {
 		color: rgba(255,255,255,1);
 	}
-	
+
 	#welcome a,
-	#welcome strong
-	{
+	#welcome strong {
 		color: rgba(255,255,255,0.6);
 	}
 
@@ -489,45 +429,39 @@
 /* Page                                                                          */
 /*********************************************************************************/
 
-	#page
-	{
+	#page {
 	}
 
 /*********************************************************************************/
 /* Content                                                                       */
 /*********************************************************************************/
 
-	#content
-	{
+	#content {
 	}
 
 /*********************************************************************************/
 /* Sidebar                                                                       */
 /*********************************************************************************/
 
-	#sidebar
-	{
+	#sidebar {
 	}
 
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
 
-	#footer
-	{
+	#footer {
 		padding: 8em 0em 5em 0em;
 		text-align: center;
 	}
 
-	
-	#footer .title h2
-	{
+
+	#footer .title h2 {
 		color: rgba(255,255,255,1);
 	}
 
 
-	#footer .title .byline
-	{
+	#footer .title .byline {
 		letter-spacing: normal;
 		text-transform: capitalize;
 		font-size: 1.6em;
@@ -538,21 +472,18 @@
 /* Copyright                                                                     */
 /*********************************************************************************/
 
-	#copyright
-	{
+	#copyright {
 		overflow: hidden;
 		padding: 5em 0em;
 		border-top: 1px solid rgba(255,255,255,0.08);
 	}
-	
-	#copyright p
-	{
+
+	#copyright p {
 		text-align: center;
 		color: rgba(255,255,255,0.2);
 	}
-	
-	#copyright a
-	{
+
+	#copyright a {
 		text-decoration: none;
 		color: rgba(255,255,255,0.4);
 	}
@@ -561,42 +492,36 @@
 /* Newsletter                                                                    */
 /*********************************************************************************/
 
-	#newsletter
-	{
+	#newsletter {
 		overflow: hidden;
 		padding: 8em 0em;
 		background: #EDEDED;
 		text-align: center;
 	}
-	
-	#newsletter .title h2
-	{
+
+	#newsletter .title h2 {
 		color: rgba(0,0,0,0.8);
 	}
-	
-	#newsletter .content
-	{
+
+	#newsletter .content {
 		width: 600px;
 		margin: 0px auto;
 	}
-	
+
 /*********************************************************************************/
 /* Portfolio                                                                     */
 /*********************************************************************************/
 
-	#portfolio
-	{
+	#portfolio {
 		padding-top: 8em;
 	}
-	
-	#portfolio .box
-	{
+
+	#portfolio .box {
 		text-align: center;
 		color: rgba(0,0,0,0.7);
 	}
-	
-	#portfolio h3
-	{
+
+	#portfolio h3 {
 		display: block;
 		padding-bottom: 1em;
 		text-transform: uppercase;
@@ -604,27 +529,23 @@
 		color: rgba(0,0,0,0.9);
 	}
 
-	#portfolio .title
-	{
+	#portfolio .title {
 		margin-bottom: 5em;
 		text-align: center;
 	}
 
-	#portfolio .title h2
-	{
+	#portfolio .title h2 {
 		color: rgba(0,0,0,0.8);
 	}
 
-	#portfolio .title .byline
-	{
+	#portfolio .title .byline {
 		letter-spacing: normal;
 		text-transform: capitalize;
 		font-size: 1.6em;
 		color: rgba(0,0,0,0.6);
 	}
-	
-	#portfolio .icon
-	{
+
+	#portfolio .icon {
 		display: inline-block;
 		margin-bottom: 2em;
 		font-size: 1.6em;
@@ -634,21 +555,18 @@
 	.column1,
 	.column2,
 	.column3,
-	.column4
-	{
+	.column4 {
 		width: 282px;
 	}
-	
+
 	.column1,
 	.column2,
-	.column3
-	{
+	.column3 {
 		float: left;
 		margin-right: 24px;
 	}
-	
-	.column4
-	{
+
+	.column4 {
 		float: right;
 	}
 
@@ -656,23 +574,20 @@
 /* Three Columns                                                                 */
 /*********************************************************************************/
 
-	#three-column
-	{
+	#three-column {
 		overflow: hidden;
 		padding-bottom: 4em;
 		text-align: center;
 	}
-	
-	#three-column h2
-	{
+
+	#three-column h2 {
 		margin: 1em 0em;
 		text-transform: uppercase;
 		font-size: 1.5em;
 		font-weight: 700;
 	}
-	
-	#three-column .icon
-	{
+
+	#three-column .icon {
 		position: relative;
 		display: block;
 		margin: 0px auto 0.80em auto;
@@ -683,42 +598,37 @@
 		border-radius: 100px;
 		text-align: center;
 		color: #632F00;
-		
+
 	}
-		
+
 	#three-column #tbox1,
 	#three-column #tbox2,
-	#three-column #tbox3
-	{
+	#three-column #tbox3 {
 		float: left;
 		width: 320px;
 		padding: 80px 40px 80px 40px;
 	}
-	
-	#three-column .title
-	{
+
+	#three-column .title {
 		letter-spacing: 0.10em;
 		text-align: center;
 		text-transform: uppercase;
 	}
-	
-	#three-column .title h2
-	{
+
+	#three-column .title h2 {
 		font-size: 1.60em;
 		font-weight: 900;
 		font-family: 'Open Sans', sans-serif;
 		color: #261300;
 	}
-	
-	#three-column .title .byline
-	{
+
+	#three-column .title .byline {
 		padding-top: 0.50em;
 		font-size: 0.90em;
 		color: #858585;
 	}
 
-	#three-column .arrow-down
-	{
+	#three-column .arrow-down {
 		border-top-color: #292929;
 	}
 
@@ -739,7 +649,7 @@
 }
 
 .pre-title {
-    font-size: 65%; 
+    font-size: 65%;
     color: #666;
 }
 
