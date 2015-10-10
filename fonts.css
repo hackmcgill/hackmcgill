@@ -3,9 +3,9 @@
 @font-face
 {
     font-family: 'Brandon';
-    src: url('fonts/BrandonText-Regular.otf') format('otf');
-    src: url('fonts/brandontext-regular-webfont.ttf') format('truetype');
-    src: url('fonts/brandontext-regular-webfont.woff') format('woff');
+    src: url('fonts/brandontext-light-webfont.ttf') format('truetype');
+    src: url('fonts/brandontext-light-webfont.woff') format('woff');
+    src: url('fonts/brandontext-light-webfont.woff2') format('woff2');
 }
 
 @font-face
@@ -38,7 +38,7 @@
 
 	/*
 		Powered by:
-		
+
 		Font Awesome (http://fortawesome.github.com/Font-Awesome/)
 		Font Awesome More (http://gregoryloucas.github.com/Font-Awesome-More/)
 	*/
