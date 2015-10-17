@@ -296,6 +296,7 @@
     }
 
     #footer {
+        color: white;
         background-color: hsla(352, 45%, 29%, 1.0); /* crimson */
         padding: 0em 0em 4em 0em;
         text-align: center;
@@ -337,7 +338,7 @@
 }
 
 .content-container {
-    padding: 1em 6%;
+    padding: 1em 2em;
 }
 
 .pre-title {
