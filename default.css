@@ -119,7 +119,7 @@
         width: 60px;
         height: 60px;
         line-height: 60px;
-        background: hsla(3,40%,45%,1.0);
+        background: hsla(352,40%,45%,1.0);
         border-radius: 30px;
         text-align: center;
     }
@@ -292,8 +292,8 @@
     }
 
     #footer {
-        background-color: hsla(352, 85%, 35%, 1.0); /* crimson */
-        padding: 8em 0em 5em 0em;
+        background-color: hsla(352, 45%, 29%, 1.0); /* crimson */
+        padding: 0em 0em 4em 0em;
         text-align: center;
     }
 
@@ -305,9 +305,9 @@
 
     #footer .title .byline {
         letter-spacing: normal;
-        text-transform: capitalize;
-        font-size: 1.6em;
-        color: rgba(255,255,255,0.2);
+        /*text-transform: capitalize;*/
+        font-size: 11pt;
+        color: rgba(255,255,255,0.8);
     }
 
     #copyright {
@@ -417,7 +417,7 @@ ul.events .event-spacetime {
 
 .mchacks-banner {
     text-align: center;
-    background-image: url('/images/mchacks-banner.jpg');
+    background-image: url('images/mchacks-banner.jpg');
     background-position: center;
     background-size: cover;
     color: white;
