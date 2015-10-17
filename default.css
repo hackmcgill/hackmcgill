@@ -276,7 +276,6 @@
     #wrapper3 {
         box-shadow: 0 5px 5px black;
         overflow: hidden;
-        padding: 0em 0em 8em 0em;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
     }
@@ -345,7 +344,7 @@
 }
 
 .content-container {
-    padding: 1em 2em;
+    padding: 1em 8em 6% 6%;
 }
 
 .pre-title {
@@ -439,7 +438,7 @@ ul.events .event-spacetime {
 .mchacks-banner .trans-black-overlay {
     background-origin: padding-box;
     background-color: rgba(0, 0, 0, 0.75);
-    padding: 6em 2em;
+    padding: 6em 6vw;
     width: 100%;
     height: 100%;
 }
@@ -449,8 +448,12 @@ ul.events .event-spacetime {
     max-width: 48em;
 }
 
-.service-descriptions > * {
-    padding: 0 2em;
+.service-descriptions > *:not(:last-child) {
+    padding-right: 2em;
+}
+
+.service-descriptions > *:not(:first-child) {
+    padding-left: 2em;
 }
 
 .service-descriptions p {
