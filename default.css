@@ -48,7 +48,11 @@
     }
 
     a.overt {
-        text-decoration: underline;
+        color: hsla(352, 60%, 30%, 1.0); /* crimson */
+    }
+
+    a.overt-invert {
+        color: hsla(352, 60%, 70%, 1.0); /* crimson */
     }
 
     a:hover {
@@ -429,6 +433,11 @@ ul.events .event-spacetime {
     padding: 3em 0;
     width: 100%;
     height: 100%;
+}
+
+.mchacks-banner p {
+    margin: 0 auto;
+    max-width: 48em;
 }
 
 .service-descriptions > * {
