@@ -431,6 +431,11 @@ ul.events .event-spacetime {
     height: 100%;
 }
 
+.mchacks-banner p {
+    margin: 0 auto;
+    max-width: 48em;
+}
+
 .service-descriptions > * {
     padding: 0 2em;
 }
