@@ -9,6 +9,7 @@
     }
 
     body {
+        background-image: url('images/background-jitter.png');
         margin: 0px;
         padding: 0px;
         background-color: hsla(60, 100%, 99%, 1);
@@ -176,6 +177,7 @@
     }
 
     #header-wrapper {
+        background-image: url('images/header-texture.png');
         overflow: hidden;
     }
 
@@ -199,7 +201,7 @@
     }
 
     #logo a {
-        color: #333;
+        color: #d1d1d1;
         font-family: 'Brandon', sans-serif;
     }
 
@@ -304,7 +306,6 @@
     #footer {
         color: white;
         background-color: hsla(352, 45%, 29%, 1.0); /* crimson */
-        padding: 0em 0em 4em 0em;
         text-align: center;
     }
 
@@ -339,8 +340,8 @@
     }
 
 #upcoming-events {
-    background-color: hsla(60, 100%, 98%, 1);
-    padding: 1em;
+    background-color: hsla(60, 0%, 0%, 0.02);
+    padding: 1em 2em;
 }
 
 .content-container {
@@ -438,7 +439,7 @@ ul.events .event-spacetime {
 .mchacks-banner .trans-black-overlay {
     background-origin: padding-box;
     background-color: rgba(0, 0, 0, 0.75);
-    padding: 6em 0;
+    padding: 6em 2em;
     width: 100%;
     height: 100%;
 }
