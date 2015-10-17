@@ -48,7 +48,11 @@
     }
 
     a.overt {
-        text-decoration: underline;
+        color: hsla(352, 60%, 30%, 1.0); /* crimson */
+    }
+
+    a.overt-invert {
+        color: hsla(352, 60%, 70%, 1.0); /* crimson */
     }
 
     a:hover {
