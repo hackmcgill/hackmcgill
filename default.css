@@ -251,11 +251,17 @@
     }
 
     #menu li:hover a, #menu li.active a, #menu li.active span {
+        background-color: hsla(352, 45%, 40%, 1.0);
     }
 
     #menu .current_page_item a {
         background-color: hsla(352, 45%, 52%, 1.0); /* light crimson */
     }
+
+    #menu .current_page_item a:hover {
+        background-color: hsla(352, 45%, 52%, 1.0); /* light crimson */
+    }
+
 
     #wrapper1 {
         box-shadow: 0 0 5px black;
