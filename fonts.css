@@ -3,9 +3,12 @@
 @font-face
 {
     font-family: 'Brandon';
-    src: url('fonts/brandontext-light-webfont.ttf') format('truetype');
-    src: url('fonts/brandontext-light-webfont.woff') format('woff');
-    src: url('fonts/brandontext-light-webfont.woff2') format('woff2');
+    src: url('fonts/brandontext-light-webfont.ttf') format('truetype'),
+        url('fonts/BrandonText-Regular.otf') format('otf'),
+        url('fonts/brandontext-light-webfont.woff') format('woff'),
+        url('fonts/brandontext-light-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face
