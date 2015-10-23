@@ -46,6 +46,11 @@
         Font Awesome More (http://gregoryloucas.github.com/Font-Awesome-More/)
     */
 
+    .fa:hover {
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+
     .icon
     {
         text-decoration: none;
