@@ -448,20 +448,14 @@ ul.events .event-spacetime {
     max-width: 48em;
 }
 
-.service-descriptions > *:not(:last-child) {
-    padding-right: 2em;
-}
 
-.service-descriptions > *:not(:first-child) {
-    padding-left: 2em;
-}
-
-.service-descriptions p {
-    text-align: justify;
-}
-
-.service-descriptions h3 {
+.service-description-block h3 {
     margin: 1em 0;
+}
+
+.service-description-block {
+    padding: 2em;
+    text-align: justify;
 }
 
 .centering {
