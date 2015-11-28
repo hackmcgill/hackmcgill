@@ -17,6 +17,34 @@
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
+<script>
+var mchacksDateMs = new Date(2016, 2, 20).getTime();
+var countdown = null;
+
+function determineCountdown() {
+    var now = Date.now();
+    var d = mchacksDateMs - now;
+    var s_ = Math.floor(d / 1000);
+    var m_ = Math.floor(s_ / 60);
+    var h_ = Math.floor(m_ / 60);
+    var days = Math.floor(h_ / 24);
+
+    var h = h_ % 24;
+    var m = m_ % 60;
+    var s = s_ % 60;
+
+    var t = "In " + days + " days, " + h + " hours, " + m + " minutes, " + s + " seconds";
+
+    if(s_ > 0)
+        countdown.textContent = t;
+}
+
+window.onload = function() {
+    countdown = document.getElementById("countdown");
+    setInterval(determineCountdown, 1000);
+};
+</script>
+
 </head>
 <body>
 
@@ -166,10 +194,11 @@
                 </h1>
             </div>
             <p>
-                On 20 and 21 February 2016, HackMcGill is hosting
-                <a href='http://mchacks.io/' class='overt-invert'>McHacks</a>, an
-                event where five hundred students come together for 24 hours to
-                innovate technologies while eating poutine.
+                <span id='countdown'>On 20 and 21 February 2016</span>,
+                HackMcGill is hosting
+                <a href='http://mchacks.io/' class='overt-invert'>McHacks</a>,
+                an event where five hundred students come together for 24 hours
+                to innovate technologies while eating poutine.
             </p>
         </div>
     </div>
