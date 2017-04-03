@@ -201,7 +201,7 @@
     #header-wrapper {
         background-image: url('images/trottier.jpg');
         overflow: hidden;
-        height: 380px;
+        height: 370px;
     }
 
     #header {
@@ -220,8 +220,7 @@
         -webkit-align-items: center;
                 align-items: center;
         text-align: center;
-        margin: 0 auto;
-        margin-top: 100px;
+        margin: 33px auto;
         padding: 10px;
         background-color: rgba(255,255,255,0.9);
         width: 50%;
@@ -382,7 +381,7 @@
 }
 
 .content-container {
-    padding: 1em 8em 6% 6%;
+    padding: 1em 4em 6% 6%;
 }
 
 .pre-title {
