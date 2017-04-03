@@ -12,9 +12,8 @@
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
-
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
@@ -46,6 +45,52 @@ window.onload = function() {
 };
 </script>
 
+<!-- jQuery -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<!-- Social-feed css -->
+<link href="fbfeed/css/jquery.socialfeed.css?ver=11" rel="stylesheet" type="text/css">
+<!-- doT.js for rendering templates -->
+<script src="fbfeed/bower_components/doT/doT.min.js"></script>
+<!-- Moment.js for showing "time ago" -->
+<script src="fbfeed/bower_components/moment/min/moment.min.js"></script>
+<!-- Social-feed js -->
+<script src="fbfeed/js/jquery.socialfeed.js?v=9"></script>
+
+<!-- Facebook SDK -->
+<script src="http://connect.facebook.net/en_US/sdk.js"></script>
+
+<!-- font-awesome for social network icons -->
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<script>
+    $(document).ready(function(){
+        $('.social-feed-container').socialfeed({
+                    // FACEBOOK
+                    facebook:{
+                        accounts:['HckMcGll'],
+                        limit:5,
+                        access_token:'150849908413827|a20e87978f1ac491a0c4a721c961b68c'
+                    },
+                    
+                    // GENERAL SETTINGS
+                    length:200,
+                    show_media:true,
+                    // Moderation function - if returns false, template will have class hidden
+                    moderation: function(content){
+                        return  (content.text) ? content.text.indexOf('fuck') == -1 : true;
+                    },
+                    //update_period: 5000,
+                    // When all the posts are collected and displayed - this function is evoked
+                    callback: function(){
+                        //console.log('all posts are collected');
+                    }
+                });
+});
+</script>
+
 </head>
 <body>
 
@@ -68,9 +113,6 @@ window.onload = function() {
                         <a href="https://medium.com/@hackmcgill" accesskey="3" title=""><span class="unskew">Blog</a>
                     </li>
                     <li>
-                        <a href="http://mchacks.io/index.html" accesskey="3" title=""><span class="unskew">McHacks</a>
-                    </li>
-                    <li>
                         <a href="faq.html" accesskey="3" title=""><span class="unskew">FAQ</a>
                     </li>
                 </ul>
@@ -78,60 +120,17 @@ window.onload = function() {
         </div>
     </div>
 
-    <div class="pure-g">
-        <div class="content-container pure-u-md-17-24 pure-u-1-1">
-            <div class="pre-title">
-                Featured project
-            </div>
-            <h1>
-                Signbot (McHacks 2017 Winner)
-            </h1>
-            <div class="article-contents pure-g">
-                <div class="image pure-u-md-1-2 pure-u-1-1">
-                    <iframe width="400" height="225" src="https://www.youtube.com/embed/pcKfq2rfDxA" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div class="text pure-u-md-1-2 pure-u-1-1">
-                    <p>
-                    Signbot is a tool that translates voice to sign language, displayed using a set of prosthetic arms. It is a multipurpose sign language device including uses such as: a teaching model for new students, a voice to sign translator for live events, or simply a communication device between voice and sign.
-                    </p> <br>
-                    <p>
-                    Built by Alex Foley, Colin Daly, Clive Chan, and Wilson Wu, McHacks 2017
-                    </p>
-                    <div class='project-links'>
-                        <ul>
-                            <li>
-                                <i class='fa fa-fw fa-github'></i>
-                                <a href='https://github.com/toastify/signbot-talk'>
-                                See the design
-                                </a>
-                            </li>
-                            <li>
-                                <i class='fa fa-fw fa-info-circle'></i>
-                                <a href='https://devpost.com/software/handy-signbot#updates'>
-                                Check out the Devpost submission
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div>
+        <h1>Jobs</h1>
 
-        <div id="social" class="pure-u-md-7-24 pure-u-1-1">
-            <div>
-                <div class="pre-title">
-                    Social
+        <div class="feed-title"><h2>Industry News</h2></div>
+                <div class="social-feed-container">
+                    <span class="feed-title"><h2>Industry News</h2></span>
                 </div>
-                <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/groups/hackmcgill/" class="icon icon-facebook"><span>Facebook</span></a></li>
-                    <li><a href="https://twitter.com/McGillHacks" class="icon icon-twitter"><span>Twitter</span></a></li>
-                    <li><a href="https://instagram.com/hackmcgill/" class="icon icon-instagram"><span>Instagram</span></a></li>
-                    <li><a href="https://www.linkedin.com/company/hackmcgill" class="icon icon-linkedin"><span>LinkedIn</span></a></li>
-                    <li><a href="https://medium.com/@hackmcgill" class="fa fa-medium"><span>Medium</span></a></li>
-                </ul>
-                <p></p>
-            </div>
-        </div>
+
+        </div> <!-- end #main -->
+
+
 
     </div>
 
@@ -174,6 +173,48 @@ window.onload = function() {
             </p>
         </div>
     </div>
+</div>
+
+<div id='wrapper4'>
+    <div class='mchacks-banner'>
+        <div class='trans-black-overlay content-container'>
+            <div class='title'>
+                <h1>
+                    McHacks
+                </h1>
+            </div>
+            <p>
+                <span id='countdown'>On 28 and 29 January 2017</span>,
+                HackMcGill is hosting
+                <a href='http://mchacks.io/' class='overt-invert'>McHacks</a>,
+                an event where five hundred students come together for 24 hours
+                to innovate technologies while eating poutine.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="footer" class="container content-container">
+    <div class="title">
+        <h2>Stay in the loop</h2>
+    </div>
+    <p>
+    We do social media. We social media better than anyone else.  Check out
+    our social media.
+    </p>
+    <ul class="contact">
+        <li><a href="https://www.facebook.com/groups/hackmcgill/" class="icon icon-facebook"><span>Facebook</span></a></li>
+        <li><a href="https://twitter.com/McGillHacks" class="icon icon-twitter"><span>Twitter</span></a></li>
+        <li><a href="https://instagram.com/hackmcgill/" class="icon icon-instagram"><span>Instagram</span></a></li>
+        <li><a href="https://www.linkedin.com/company/hackmcgill" class="icon icon-linkedin"><span>LinkedIn</span></a></li>
+        <li><a href="https://medium.com/@hackmcgill" class="fa fa-medium"><span>Medium</span></a></li>
+    </ul>
+    <!-- 
+    <p>
+    You can also email us
+    <br>
+    <a href="mailto:helloworld@hackmcgill.com">helloworld@hackmcgill.com</a> -->
+    </p>
 </div>
 
 </body>

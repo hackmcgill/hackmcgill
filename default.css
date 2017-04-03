@@ -9,7 +9,7 @@
     }
 
     body {
-        background-image: url('images/background-jitter.png');
+        background-image: url('images/grey.png');
         margin: 0px;
         padding: 0px;
         background-color: hsla(60, 100%, 99%, 1);
@@ -97,42 +97,64 @@
     ul.style1 {
     }
 
-    ul.contact {
+    ul.social-icons {
         margin: 2em 0;
         list-style: none;
     }
 
-    ul.contact li {
+    ul.social-icons li {
         display: inline-block;
         padding: 0em 0.20em;
         font-size: 1.2em;
     }
 
-    ul.contact li span {
+    ul.social-icons li span {
         display: none;
         margin: 0;
         padding: 0;
     }
 
-    ul.contact li a {
-        color: rgba(255,255,255,1);
+    ul.social-icons li a:hover:before {
+        color: #000;
     }
 
-    ul.contact li a:before {
+    ul.social-icons li a:before {
         display: inline-block;
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
-        background: hsla(352,40%,45%,1.0);
-        border-radius: 30px;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        background: transparent;
+        border: 3px solid #CE1F16;
         text-align: center;
+    }
+
+    /* Social Icon Colours */
+
+    .icon-facebook:before {
+        color: #3B5998;
+    }
+
+    .icon-twitter:before {
+        color: #1DA1F4;
+    }
+
+    .icon-instagram:before {
+        color: #E6425E;
+    }
+
+    .icon-linkedin:before {
+        color: #007AB9;
+    }
+
+    .fa-medium:before {
+        color: #00AB6C;
     }
 
     .button {
         display: inline-block;
         margin-top: 2em;
         padding: 0.6em 1em;
-        background: hsla(352, 45%, 29%, 1.0);
+        background: #CE1F16;
         border-radius: 4px;
         line-height: 1.5em;
         text-decoration: none;
@@ -177,8 +199,9 @@
     }
 
     #header-wrapper {
-        background-image: url('images/header-texture.png');
+        background-image: url('images/trottier.jpg');
         overflow: hidden;
+        height: 380px;
     }
 
     #header {
@@ -188,7 +211,6 @@
         display: -webkit-flex;
         display:         flex;
         font-size: 5.0em;
-        padding: 0.7em 0;
         -webkit-flex-direction: row;
                 flex-direction: row;
         -webkit-flex-wrap: wrap-reverse;
@@ -198,10 +220,15 @@
         -webkit-align-items: center;
                 align-items: center;
         text-align: center;
+        margin: 0 auto;
+        margin-top: 100px;
+        padding: 10px;
+        background-color: rgba(255,255,255,0.9);
+        width: 50%;
     }
 
     #logo a {
-        color: #d1d1d1;
+        color: #000;
         font-family: 'Brandon', sans-serif;
     }
 
@@ -227,8 +254,9 @@
     }
 
     #menu {
-        background-color: hsla(352, 45%, 29%, 1.0); /* crimson */
+        background-color: #fff; /* crimson */
         font-family: 'Lato', sans-serif;
+        margin-top: 15px;
     }
 
     #menu ul {
@@ -237,31 +265,41 @@
 
     #menu li {
         display: inline-block;
+        transform: skew(-20deg);
+        border: 2px solid black;
+        margin: 5px 10px;
     }
 
-    #menu li a, #menu li span {
+    #menu li a {
         display: inline-block;
-        margin-left: -4px;
         padding: 1em 1.5em;
         letter-spacing: 0.20em;
         text-decoration: none;
-        font-size: 0.90em;
         font-weight: 600;
         text-transform: uppercase;
         outline: 0;
-        color: hsla(41, 21%, 88%, 0.71);
+        color: #000;
+    }
+
+    #menu li span.unskew {
+        display: inline-block;
+        transform: skew(20deg);
     }
 
     #menu li:hover a, #menu li.active a, #menu li.active span {
-        background-color: hsla(352, 45%, 40%, 1.0);
+        background-color: #ce1f16;;
+        color: #fff;
     }
 
     #menu .current_page_item a {
-        background-color: hsla(352, 45%, 52%, 1.0); /* light crimson */
+        background-color: #ce1f16; /* light crimson */
+        color: #fff;
+        font-weight: 700;
+
     }
 
     #menu .current_page_item a:hover {
-        background-color: hsla(352, 45%, 52%, 1.0); /* light crimson */
+        background-color: #ce1f16; /* light crimson */
     }
 
 
@@ -338,8 +376,8 @@
         color: rgba(255,255,255,0.4);
     }
 
-#upcoming-events {
-    background-color: hsla(60, 0%, 0%, 0.02);
+#social {
+    background-color: #fff;
     padding: 1em 2em;
 }
 
@@ -358,6 +396,7 @@
 .pure-g,
 .pure-g [class *= "pure-u"] {
     font-family: inherit;
+    padding-left: 1em;
 }
 
 .article-contents {
