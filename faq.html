@@ -12,38 +12,84 @@
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
+<script>
+var mchacksDateMs = new Date(2016, 1, 20).getTime();
+var countdown = null;
+
+function determineCountdown() {
+    var now = Date.now();
+    var d = mchacksDateMs - now;
+    var s_ = Math.floor(d / 1000);
+    var m_ = Math.floor(s_ / 60);
+    var h_ = Math.floor(m_ / 60);
+    var days = Math.floor(h_ / 24);
+
+    var h = h_ % 24;
+    var m = m_ % 60;
+    var s = s_ % 60;
+
+    var t = "In " + days + " days, " + h + " hours, " + m + " minutes, " + s + " seconds";
+
+    if(s_ > 0)
+        countdown.textContent = t;
+}
+
+window.onload = function() {
+    countdown = document.getElementById("countdown");
+    setInterval(determineCountdown, 1000);
+};
+</script>
+
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="wrapper1">
     <div id="header-wrapper">
         <div id="header" class="container">
+            <div id="logo">
+                <a href="index.html">hack</a><a href="index.html">mcgill</a>
+                <img src="images/bird.svg">
+            </div>
             <nav id="menu">
                 <ul>
+                    <li>
+                        <a href="index.html" accesskey="1" title=""><span class="unskew">Home</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/groups/hackmcgilljobs/" accesskey="2" title=""><span class="unskew">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@hackmcgill" accesskey="3" title=""><span class="unskew">Blog</a>
+                    </li>
+                    <li>
+                        <a href="http://mchacks.io/index.html" accesskey="3" title=""><span class="unskew">McHacks</a>
+                    </li>
                     <li class="current_page_item">
-                        <a href="index.html" accesskey="1" title="">Home</a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/groups/hackmcgilljobs/" accesskey="2" title="">HackMcGill Jobs</a>
-                    </li>
-                    <li>
-                        <a href="https://medium.com/@hackmcgill" accesskey="3" title="">Blog</a>
-                    </li>
-                    <li>
-                        <a href="faq.html" accesskey="3" title="">FAQ</a>
+                        <a href="faq.html" accesskey="3" title=""><span class="unskew">FAQ</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </div>
-</div>
 
-<div class="faq">
+    <div class="pure-g">
+        <div class="content-container pure-u-md-17-24 pure-u-1-1">
+
+        <div class="faq">
     <h1>FAQ</h1>
 
 
@@ -82,26 +128,28 @@
     <p>Hacking has a lot of different connotations, some more positive than others. We define hacking pretty loosely: it's a clever way of solving a problem. <a class="overt" href="https://en.wikipedia.org/wiki/Hacker_culture">This Wikipedia article</a> explains things pretty well. If you're really keen on breaking into things, check out <a class="overt" href="https://www.facebook.com/groups/1891337071091597/">CTFciety</a>.</p>
 
 </div>
-<div id="footer" class="container content-container">
-    <div class="title">
-        <h2>Stay in the loop</h2>
+
+        
+        </div>
+
+        <div id="social" class="pure-u-md-7-24 pure-u-1-1">
+            <div>
+                <div class="pre-title">
+                    Social
+                </div>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/groups/hackmcgill/" class="icon icon-facebook"><span>Facebook</span></a></li>
+                    <li><a href="https://twitter.com/McGillHacks" class="icon icon-twitter"><span>Twitter</span></a></li>
+                    <li><a href="https://instagram.com/hackmcgill/" class="icon icon-instagram"><span>Instagram</span></a></li>
+                    <li><a href="https://www.linkedin.com/company/hackmcgill" class="icon icon-linkedin"><span>LinkedIn</span></a></li>
+                    <li><a href="https://medium.com/@hackmcgill" class="fa fa-medium"><span>Medium</span></a></li>
+                </ul>
+                <div class="fb-page" data-href="https://www.facebook.com/HckMcGll/" data-tabs="timeline" data-height="600" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/HckMcGll/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/HckMcGll/">HackMcGill</a></blockquote></div>
+            </div>
+        </div>
+
     </div>
-    <p>
-    We do social media. We social media better than anyone else.  Check out
-    our social media.
-    </p>
-    <ul class="contact">
-        <li><a href="https://www.facebook.com/groups/hackmcgill/" class="icon icon-facebook"><span>Facebook</span></a></li>
-        <li><a href="https://twitter.com/McGillHacks" class="icon icon-twitter"><span>Twitter</span></a></li>
-        <li><a href="https://instagram.com/hackmcgill/" class="icon icon-instagram"><span>Instagram</span></a></li>
-        <li><a href="https://www.linkedin.com/company/hackmcgill" class="icon icon-linkedin"><span>LinkedIn</span></a></li>
-        <li><a href="https://medium.com/@hackmcgill" class="fa fa-medium"><span>Medium</span></a></li>
-    </ul>
-    <p>
-    You can also email us
-    <br>
-    <a href="mailto:helloworld@hackmcgill.com">helloworld@hackmcgill.com</a>
-    </p>
+
 </div>
 
 </body>
