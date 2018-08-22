@@ -1,0 +1,27 @@
+.button {
+  &.button-primary {
+    background-color: $global-color-primary;
+    transition: 0.10s ease-in-out all;
+    font-size: 18px;
+    width: 180px;
+    height: 64px;
+    line-height: 65px;
+    font-family: Brown;  
+    font-weight: normal;
+    text-transform: lowercase;
+
+    &.button-primary:hover {
+      background-color: $color-hack-red-med;
+    }
+
+    &.button-primary:focus {
+      background-color: $global-color-primary;
+      color: #fff,
+    }
+
+    &.button-primary:active {
+      background-color: $global-color-primary;
+      color: #fff,
+    }
+  }
+}
