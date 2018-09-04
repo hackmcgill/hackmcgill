@@ -341,3 +341,27 @@ input:-webkit-autofill:active {
   border: none;
   display: inline-block;
 }
+
+.apply {
+  margin-bottom: 60px;
+}
+
+.footer-nav {
+  position: fixed;
+  left: 0;
+  bottom: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-nav.social {
+  border: none;
+  display: inline-block;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-nav.social {
+    display: none;
+  }
+}
