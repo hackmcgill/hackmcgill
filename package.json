@@ -9,7 +9,9 @@
     "lint": "./node_modules/.bin/eslint src/js/*.js",
     "lint:styles": "prettier \"src/**/*.scss\"",
     "start": "webpack --config webpack.prod.js && http-server ./dist -o",
-    "deploy": "webpack --config webpack.prod.js && git push origin :gh-pages && git subtree push --prefix dist origin gh-pages && git commit -m"
+    "deploy": "webpack --config webpack.prod.js && git add dist && git commit -m '🚀' && git push && git push origin :gh-pages && git subtree push --prefix dist origin gh-pages",
+    "deploy:no-remote": "webpack --config webpack.prod.js && git add dist && git commit -m '🚀' && git push && git push origin :gh-pages && git subtree push --prefix dist origin gh-pages",
+    "deploy:no-build": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
