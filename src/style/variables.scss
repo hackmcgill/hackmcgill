@@ -1,0 +1,24 @@
+// colors
+$color-hack-red: #F2463A;
+$color-hack-red-med: #F56F65;
+$color-hack-red-light: #F89790;
+$color-hack-black: #202020;
+$color-hack-black-80: #4D4D4D;
+$color-hack-black-70: #636363;
+$color-hack-black-60: #797979;
+$color-hack-black-40: #A6A6A6;
+$color-hack-black-30: #BCBCBC;
+$color-hack-black-20: #D2D2D2;
+$color-hack-black-10: #E9E9E9;
+$color-hack-black-5: #F4F4F4;
+$color-hack-white: #FFFFFF;
+
+// global colors
+$global-color-text: $color-hack-black-70;
+$global-color-bg: $color-hack-white;
+$global-color-primary: $color-hack-red;
+
+// screen breakpoint sizes
+$sm-up: 768px;
+$md-up: 992px;
+$lg-up: 1200px;

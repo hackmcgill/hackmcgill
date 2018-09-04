@@ -1,0 +1,38 @@
+@mixin tiered-coloring {
+  &:nth-of-type(2) {
+    color: #636363;
+    [class$='dot'] {
+      background-color: #636363;
+    }
+  }
+  &:nth-of-type(3) {
+    color: #4476C2;
+    [class$='dot'] {
+      background-color: #4476C2;
+    }
+  }
+  &:nth-of-type(4) {
+    color: #F89790;
+    [class$='dot'] {
+      background-color: #F89790;
+    }
+  }
+  &:nth-of-type(5) {
+    color: #3E8BFF;
+    [class$='dot'] {
+      background-color: #3E8BFF;
+    }
+  }
+  &:nth-of-type(6) {
+    color: #F2463A;
+    [class$='dot'] {
+      background-color: #F2463A;
+    }
+  }
+}
+
+@mixin media-query($screen) {
+  @media only screen and (min-width: $screen) {
+    @content;
+  }
+}
