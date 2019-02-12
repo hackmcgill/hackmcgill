@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fba96b94-aef5-439b-a80c-773a91ef944d/deploy-status)](https://app.netlify.com/sites/hackmcgill/deploys)
+
 ![McHacks logo](https://raw.githubusercontent.com/hackmcgill/mchacks6/master/src/static/mchacks-30x48.jpg?s=200)
 
 This is the repository for the static landing page for [HackMcGill](https://hackmcgill.com). Code based upon [boilerplate here](https://github.com/erickzhao/static-html-webpack-boilerplate).
