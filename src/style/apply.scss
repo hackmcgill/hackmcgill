@@ -1,0 +1,35 @@
+#apply {
+
+  .apply__wrapper {
+    @include page-width;
+    max-width: 70rem;
+    margin: auto;
+    padding: 8rem 4rem;
+
+    @include media-query($sm-up) {
+      padding: 8rem 0;
+    }
+  }
+
+  .apply__button {
+    font-family: Hind, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: none;
+    color: $color-hack-red;
+    border-radius: 2em;
+    border: 2px solid $color-hack-red;
+    transition: all 0.15s ease-in-out;
+    padding: 10px 32px;
+
+    &:hover {
+      background-color: $color-hack-red;
+      color: white;
+    }
+
+    @include media-query($sm-up) {
+      font-size: 1.5rem;
+      margin-right: 25px;
+    }
+  }
+}
