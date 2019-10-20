@@ -28,3 +28,13 @@ This is the repository for the static landing page for [HackMcGill](https://hack
 - `yarn deploy`: Runs a build, commits it, then deploys the `/dist` folder to the `gh-pages` branch.
 - `yarn lint`: Lint scripts.
 - `yarn lint:styles`: Lint stylesheets.
+
+## Deployment
+
+We are using Netlify to compile and host our code automatically. When a PR is created, Netlify will generate preview builds of the site to confirm that everything is working as expected. Once code is merged to `master`, Netlify will promote that code to production at `hackmcgill.com`. Netlify also handles the SSL certificate for this site. @krubenok is currently the admin on the Netlify plan. 
+
+### Domains
+
+The primary domain for this site (`hackmcgill.com`) is registered and has DNS with Cloudflare. It has  CNAME records pointing to `mchacks6.netlify.com` from `www.hackmcgill.com` and `hackmcgill.com `
+
+We also have a secondary domains, `hackmcgill.ca` and `www.hackmcgill.ca` pointing to `mchacks6.netlify.com` via CNAME as above. `hackmcgill.ca` is registered with Namecheap and the DNS with Cloudflare.
