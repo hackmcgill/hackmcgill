@@ -4,6 +4,7 @@
 @import 'skeleton--custom.scss';
 @import 'mixins.scss';
 @import 'sponsor.scss';
+@import 'apply.scss';
 @import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
 
 @font-face {
@@ -18,10 +19,21 @@
   font-weight: bold;
 }
 
+em {
+  color: $global-color-primary;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Hind Siliguri', -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
-  background-color: #F6F6F6;
-  color: #4D4D4D;
+  font-family:
+    "Hind Siliguri",
+    -apple-system,
+    system-ui,
+    BlinkMacSystemFont,
+    sans-serif;
+  color: #636363;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 h1,
@@ -31,17 +43,36 @@ h4,
 h5,
 h6 {
   font-family: Brown, sans-serif;
+  color: $color-hack-red;
 }
 
 a {
-  color: #646464;
   text-decoration: none;
-  background-color: transparent;
+  color: $color-hack-black-40;
+
+  &:hover {
+    color: $color-hack-red;
+  }
 }
 
-a:hover {
-  color: #F2463A;
-  text-decoration: none;
+.button {
+  font-family: Brown, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: none;
+  background-color: $color-hack-red;
+  color: white;
+  border-radius: 0.5em;
+  border: none;
+  transition: all 0.15s ease-in-out;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  height: 48px;
+
+  &:hover {
+    background-color: $color-hack-red-med;
+    color: white;
+  }
 }
 
 img {
