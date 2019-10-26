@@ -1,3 +1,5 @@
+# [hackmcgill](https://hackmcgill.com)
+
 ![McHacks logo](https://raw.githubusercontent.com/hackmcgill/mchacks6/master/src/static/mchacks-30x48.jpg?s=200)
 
 This is the repository for the static landing page for [HackMcGill](https://hackmcgill.com). Code based upon [boilerplate here](https://github.com/erickzhao/static-html-webpack-boilerplate).
@@ -32,7 +34,6 @@ This is the repository for the static landing page for [HackMcGill](https://hack
 ## Contributing
 
 To contribute to the HackMcGill repository, please see our [contributing guide](https://github.com/hackmcgill/hackmcgill/blob/develop/CONTRIBUTING.md).
-)
 
 ## Deployment
 
