@@ -52,6 +52,9 @@
     "npm": "^6.11.3",
     "uglifyjs-webpack-plugin": "^1.2.5"
   },
+  "engines" : { 
+    "node" : "10.14.2" 
+  }
   "browserslist": [
     "> 1%",
     "last 2 versions"
