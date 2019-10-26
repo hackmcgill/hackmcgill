@@ -29,14 +29,11 @@ This is the repository for the static landing page for [HackMcGill](https://hack
 - `yarn lint`: Lint scripts.
 - `yarn lint:styles`: Lint stylesheets.
 
-<<<<<<< HEAD
-=======
 ## Contributing
 
 To contribute to the HackMcGill repository, please see our [contributing guide](https://github.com/hackmcgill/hackmcgill/blob/develop/CONTRIBUTING.md).
 )
 
->>>>>>> develop
 ## Deployment
 
 We are using Netlify to compile and host our code automatically. When a PR is created, Netlify will generate preview builds of the site to confirm that everything is working as expected. Once code is merged to `master`, Netlify will promote that code to production at `hackmcgill.com`. Netlify also handles the SSL certificate for this site. @krubenok is currently the admin on the Netlify plan. 
