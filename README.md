@@ -1,8 +1,10 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fba96b94-aef5-439b-a80c-773a91ef944d/deploy-status)](https://app.netlify.com/sites/hackmcgill/deploys)
+# [hackmcgill](https://hackmcgill.com)
 
 ![McHacks logo](https://raw.githubusercontent.com/hackmcgill/mchacks6/master/src/static/mchacks-30x48.jpg?s=200)
 
 This is the repository for the static landing page for [HackMcGill](https://hackmcgill.com). Code based upon [boilerplate here](https://github.com/erickzhao/static-html-webpack-boilerplate).
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fba96b94-aef5-439b-a80c-773a91ef944d/deploy-status)](https://app.netlify.com/sites/hackmcgill/deploys)
 
 ## Setup
 
@@ -28,6 +30,10 @@ This is the repository for the static landing page for [HackMcGill](https://hack
 - `yarn deploy`: Runs a build, commits it, then deploys the `/dist` folder to the `gh-pages` branch.
 - `yarn lint`: Lint scripts.
 - `yarn lint:styles`: Lint stylesheets.
+
+## Contributing
+
+To contribute to the HackMcGill repository, please see our [contributing guide](https://github.com/hackmcgill/hackmcgill/blob/develop/CONTRIBUTING.md).
 
 ## Deployment
 

@@ -31,7 +31,7 @@ body {
     system-ui,
     BlinkMacSystemFont,
     sans-serif;
-  color: #636363;
+  color: $color-hack-black-80;
   overflow: scroll;
   overflow-x: hidden;
 }
@@ -48,7 +48,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: $color-hack-black-40;
+  color: $color-hack-black-60;
 
   &:hover {
     color: $color-hack-red;
@@ -199,7 +199,7 @@ img {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #646464;
+  color: $color-hack-black-80;
   outline: 0;
   border-width: 2px;
   background-color: transparent;
@@ -245,7 +245,7 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
-  -webkit-text-fill-color: #646464;
+  -webkit-text-fill-color: $color-hack-black-80;
 }
 
 .container,

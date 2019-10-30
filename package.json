@@ -1,7 +1,7 @@
 {
-  "name": "static-html-site-boilerplate",
-  "version": "1.0.1",
-  "description": "Modern tooling for old-school static webpage development",
+  "name": "HackMcGill",
+  "version": "0.1.0",
+  "description": "Website for HackMcGill, McGill University's student hacker collective and organizing team for McHacks.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/erickzhao/static-html-webpack-boilerplate.git"
   },
-  "author": "erick zhao",
+  "author": "@hackmcgill",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
@@ -45,7 +45,7 @@
     "sass-loader": "^7.3.1",
     "url-loader": "^1.0.1",
     "webpack": "^3.8.1",
-    "webpack-dev-server": "^3.8.0",
+    "webpack-dev-server": "^2.11.1",
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
