@@ -1,6 +1,6 @@
 {
   "name": "HackMcGill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Website for HackMcGill, McGill University's student hacker collective and organizing team for McHacks.",
   "main": "index.js",
   "scripts": {
